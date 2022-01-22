@@ -5,7 +5,13 @@ import { Product } from './interfaces/product.interface';
 import { ShoppingCartService } from 'src/app/shared/components/header/services/shopping-cart.service';
 @Component({
   selector: 'app-products',
-  templateUrl: './products.component.html',
+  template: `<section class="products">
+    <app-product
+      (addTocartClick)="addTocart($event)"
+      [product]="product"
+      *ngFor="let product of products"
+    ></app-product>
+  </section> `,
   styleUrls: ['./products.component.scss'],
 })
 export class ProductsComponent implements OnInit {
