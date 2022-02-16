@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-checkout',
@@ -12,6 +13,8 @@ export class CheckoutComponent implements OnInit {
     shippingAddress: '',
     city: '',
   };
+  entregarlo = false;
+
   stores = [
     {
       id: 1,
@@ -32,6 +35,10 @@ export class CheckoutComponent implements OnInit {
 
   ngOnInit(): void {}
   recogerloEntregarlo(value: boolean): void {
-    console.log(value);
+    this.entregarlo = value;
+  }
+
+  onSubmit(): void {
+    console.log('Guardar');
   }
 }
