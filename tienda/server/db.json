@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 8
+      "stock": 0
     },
     {
       "id": 3,
@@ -73,7 +73,7 @@
       "price": 17,
       "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 0
     },
     {
       "id": 4,
@@ -89,7 +89,7 @@
       "price": 399,
       "description": "5K Video - Shoot stunning video with up to 5K resolution, perfect for maintaining detail even when zooming in",
       "categoryId": 2,
-      "stock": 10
+      "stock": 6
     },
     {
       "id": 6,
@@ -97,7 +97,7 @@
       "price": 7,
       "description": "HDMI A Male to A Male Cable: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)",
       "categoryId": 2,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 7,
@@ -164,6 +164,70 @@
       "date": "16/2/2022",
       "entregarlo": true,
       "id": 6
+    },
+    {
+      "name": "k",
+      "shippingAddress": "",
+      "city": "",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 7
+    },
+    {
+      "name": "s",
+      "shippingAddress": "",
+      "city": "",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 8
+    },
+    {
+      "name": "jennyca",
+      "shippingAddress": "calle1",
+      "city": "madrid",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 9
+    },
+    {
+      "name": "v",
+      "shippingAddress": "a",
+      "city": "x",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 10
+    },
+    {
+      "name": "n",
+      "shippingAddress": "cara",
+      "city": "tulua",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 11
+    },
+    {
+      "name": "z",
+      "shippingAddress": "cra",
+      "city": "bug",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 12
+    },
+    {
+      "name": "w",
+      "shippingAddress": "cadde4",
+      "city": "frgg",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 13
+    },
+    {
+      "name": "fgfdghdgj",
+      "shippingAddress": "hjkhjlhkkl",
+      "city": "hjljljhljk",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 14
     }
   ],
   "detailsOrders": [
@@ -219,6 +283,46 @@
       "details": [],
       "orderId": 6,
       "id": 6
+    },
+    {
+      "details": [],
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "details": [],
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "details": [],
+      "orderId": 9,
+      "id": 9
+    },
+    {
+      "details": [],
+      "orderId": 10,
+      "id": 10
+    },
+    {
+      "details": [],
+      "orderId": 11,
+      "id": 11
+    },
+    {
+      "details": [],
+      "orderId": 12,
+      "id": 12
+    },
+    {
+      "details": [],
+      "orderId": 13,
+      "id": 13
+    },
+    {
+      "details": [],
+      "orderId": 14,
+      "id": 14
     }
   ]
 }
