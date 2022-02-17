@@ -13,16 +13,16 @@
         El nombre es requerido
       </mat-error>
     </mat-form-field>
-    {{ entregarlo }} - entregarlo?
+
     <mat-radio-group class="form__element">
       <p>Escoja una opción</p>
-      <mat-radio-button
-        value="recogerlo"
-        (change)="recogerloEntregarlo(false)"
-        checked
+      <mat-radio-button value="recogerlo" (change)="recogerloEntregarlo(false)"
         >Recogerlo</mat-radio-button
       >
-      <mat-radio-button value="entregarlo" (change)="recogerloEntregarlo(true)"
+      <mat-radio-button
+        value="entregarlo"
+        (change)="recogerloEntregarlo(true)"
+        checked
         >Entregarlo</mat-radio-button
       >
     </mat-radio-group>
@@ -74,7 +74,7 @@
     mat-raised-button
     color="primary"
     type="submit"
-    (click)="onSubmit()"
+    (click)="onSubmit(checkoutForm)"
   >
     Verificar
   </button>

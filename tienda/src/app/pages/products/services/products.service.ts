@@ -12,4 +12,9 @@ export class ProductsService {
   getProducts(): Observable<Product[]> {
     return this.Http.get<Product[]>(this.apiURL);
   }
+
+  updateStock(productId: number, stock: number): Observable<any> {
+    const body = { stock: stock };
+    return this.Http.patch<any>(`${this.apiURL}/${productId}`, body);
+  }
 }

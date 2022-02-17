@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 3,
@@ -124,6 +124,46 @@
       "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
       "city": "Barcelona",
       "pickup": true
+    },
+    {
+      "name": "kk",
+      "store": "",
+      "shippingAddress": "",
+      "date": "16/2/2022",
+      "pickup": false,
+      "id": 2
+    },
+    {
+      "name": "ff",
+      "store": "",
+      "shippingAddress": "",
+      "date": "16/2/2022",
+      "pickup": false,
+      "id": 3
+    },
+    {
+      "name": "f",
+      "store": "",
+      "shippingAddress": "",
+      "date": "16/2/2022",
+      "pickup": false,
+      "id": 4
+    },
+    {
+      "name": "d",
+      "store": "",
+      "shippingAddress": "",
+      "date": "16/2/2022",
+      "pickup": false,
+      "id": 5
+    },
+    {
+      "name": "f",
+      "shippingAddress": "",
+      "city": "",
+      "date": "16/2/2022",
+      "entregarlo": true,
+      "id": 6
     }
   ],
   "detailsOrders": [
@@ -132,6 +172,53 @@
       "orderId": 1,
       "quantity": 10,
       "productName": "Product name"
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 2,
+      "id": 2
+    },
+    {
+      "details": [],
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "details": [],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [],
+      "orderId": 6,
+      "id": 6
     }
   ]
 }
