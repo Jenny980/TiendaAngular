@@ -4,11 +4,11 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-header',
   template: `
-    <mat-toolbar color="primary">
+    <mat-toolbar class="estilo">
       <a [routerLink]="['/']"><span>Mi tienda</span></a>
 
       <span class="spacer"></span>
-      <app-cart class="mouse" (click)="irVerificar()"></app-cart>
+      <app-cart class="mouseHover" (click)="irVerificar()"></app-cart>
     </mat-toolbar>
   `,
   styleUrls: ['./header.component.scss'],

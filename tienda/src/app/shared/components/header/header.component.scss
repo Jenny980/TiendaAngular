@@ -7,8 +7,14 @@ a {
   color: #fff;
 }
 
-.mouse {
-  background-color: rgb(4, 172, 194);
+.mouseHover:hover {
+  background-color: rgb(236, 145, 26);
   cursor: pointer;
   transition: all 0.7 ease-in-out;
+  color: white;
+}
+
+.estilo {
+  background-color: rgb(167, 67, 67);
+  color: white;
 }

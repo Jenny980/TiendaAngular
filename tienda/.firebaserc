@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "gamification-86cd7": {
+      "hosting": {
+        "tienda": [
+          "gamification-86cd7"
+        ]
+      }
+    }
+  }
+}

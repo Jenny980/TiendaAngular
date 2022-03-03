@@ -8,6 +8,7 @@ import { Store } from 'src/app/shared/interfaces/stores.interface';
 import { DataService } from 'src/app/shared/services/data.service';
 import { Product } from '../products/interfaces/product.interface';
 import { ProductsService } from '../products/services/products.service';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-checkout',
@@ -26,6 +27,7 @@ export class CheckoutComponent implements OnInit {
 
   stores: Store[] = [];
   constructor(
+    private firestore: AngularFirestore,
     private dataSvc: DataService,
     private shoppingCartSvc: ShoppingCartService,
     private router: Router,
@@ -43,7 +45,21 @@ export class CheckoutComponent implements OnInit {
     this.entregarlo = value;
   }
 
+  GuardarEnBD() {
+    console.log('hola');
+    this.firestore
+      .collection('usuarios')
+      .add({ nombre: 'Carolina', contraseña: '1234' })
+      .then(() => {
+        alert('Se dio de alta');
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
   onSubmit({ value: formData }: NgForm): void {
+    this.GuardarEnBD();
     console.log('Guardar', formData);
     const data: Order = {
       ...formData,

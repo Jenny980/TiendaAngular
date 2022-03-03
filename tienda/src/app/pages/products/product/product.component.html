@@ -5,13 +5,10 @@
     </mat-card-title>
   </mat-card-header>
   <mat-card-content> {{ product.description }} </mat-card-content>
+  <img src="{{ product.img }}" width="400" height="341" />
+
   <mat-card-actions>
-    <button
-      mat-flat-button
-      color="primary"
-      (click)="onClick()"
-      [disabled]="product.stock == 0"
-    >
+    <button mat-flat-button (click)="onClick()" [disabled]="product.stock == 0">
       Buy {{ product.price | currency }}
     </button>
   </mat-card-actions>

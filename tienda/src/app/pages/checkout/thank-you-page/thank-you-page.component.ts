@@ -5,11 +5,7 @@ import { Component } from '@angular/core';
   template: `<div class="container">
     <h1 class="title">Gracias!</h1>
     <p class="content">Tu orden está siendo procesada.</p>
-    <span>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores placeat
-      hic, libero aspernatur error sapiente dolore ipsam similique amet, itaque
-      quaerat, id doloremque perferendis ab saepe accusamus deserunt iusto quos?
-    </span>
+    <span> Gracias por su compra </span>
   </div> `,
   styleUrls: ['./thank-you-page.component.scss'],
 })
