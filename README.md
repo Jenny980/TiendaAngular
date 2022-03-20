@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Tienda angular
 
 _Mini tienda virtual con visualización de productos, carrito y orden_
 
